@@ -11,3 +11,105 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  display: flex;
+  justify-content: center;
+   margin: 12px auto;
+   justify-content: space-between;
+
+}
+.ima{
+  width: 70px;
+  height: 40px;
+  border-radius: 50%;
+}
+.search{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 33px;
+}
+.notification{
+  width: 50px;
+  height: 40px;
+}
+.btnHeader{
+  border-radius: 33px;
+  width: 90px;
+  height: 40px;
+  /* background-color: aqua; */
+  color: aqua;
+  font-weight: bold;
+
+}
+
+/* Card */
+.choose{
+  border: 1px solid black;
+  width: 450px;
+  height: 250px;
+  border-radius: 33px;
+  text-align: center;
+}
+
+.upload{
+   border: 1px solid black;
+  width: 450px;
+  height: 250px;
+  border-radius: 33px;
+  text-align: center;
+
+}
+.preview{
+  border: 1px solid black;
+  width: 450px;
+  height: 400px;
+  border-radius: 33px;
+  text-align: center;
+
+}
+.choose1{
+  margin-left: 150px;
+}
+
+.prev{
+  /* margin-left: 600px; */
+  margin-top: 0;
+   grid-area: right;
+   display: grid;
+}
+
+/* card */
+.price{
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  border-radius: 33px;
+  text-align: center;
+}
+.timed{
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  border-radius: 33px;
+  text-align: center;
+}
+.text1{
+  color: darkgray;
+
+}
+.text2{
+  color: darkgray;
+  margin-top: 10px;
+  
+}
+.text3{
+  color: darkgray;
+  margin-top: 10px;
+  
+}
+.text4{
+  color: darkgray;
+  margin-top: 10px;
+  
+}

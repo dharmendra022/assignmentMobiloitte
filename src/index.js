@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Headerr from "./Headerr";
+import Collection from "./Collection";
+import Room from "./Room";
+import Choose from "./Choose";
+import Chocoll from "./Chocoll";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  <>
+    <Headerr />
+    <Collection />
+    <Room />
+    <Choose />
+    <Chocoll />
+  </>,
   document.getElementById('root')
 );
 
