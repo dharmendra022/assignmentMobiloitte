@@ -1,17 +1,25 @@
 import React from "react";
+import AddIcon from '@mui/icons-material/Add';
+import ArticleIcon from '@mui/icons-material/Article';
 
 const Chocoll = () => {
     return (
         <>
             <div>
-                <div>
+                <h3 className="ch">Choose Collection</h3>
+                <div className="col">
+
                     <div className="col1">
-                        <span></span>
-                        <label htmlFor="">Create</label>
+                        <div className="add">
+                            <span ><AddIcon /></span>
+                            <label htmlFor="" className="col">Create</label>
+                        </div>
                     </div>
                     <div className="col2">
-                        <span></span>
-                        <label htmlFor="">Fungy</label>
+                        <div className="col3">
+                            <span ><ArticleIcon /></span>
+                            <label htmlFor="" className="col">Fungy</label>
+                        </div>
                     </div>
                 </div>
 

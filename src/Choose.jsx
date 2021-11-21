@@ -11,7 +11,7 @@ const Choose = () => {
                     <div className="box">
                         <div className="price">
                             <div className="tim">
-                            <span><LocalOfferIcon /></span>
+                                <span><LocalOfferIcon /></span>
                                 <h3>Fixed Price</h3>
                             </div>
 
@@ -19,7 +19,7 @@ const Choose = () => {
 
                         <div className="timed">
                             <div className="tim">
-                            <span><TimelapseIcon /></span>
+                                <span><TimelapseIcon /></span>
                                 <h3>Timed Aucation</h3>
                             </div>
 
@@ -30,7 +30,7 @@ const Choose = () => {
 
                 <div className="price1">
                     <h3>Price</h3>
-                    <input type="text" />
+                    <input type="text" className="tex" />
 
 
 
@@ -39,25 +39,15 @@ const Choose = () => {
                 <div>
                     <div>
                         <label className="text1">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, incidunt.
+                            Service Fess <span className="per">2.5%</span>
                         </label>
                     </div>
                     <div>
                         <label className="text2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae?
+                            You will recive <span className="dol"> 0.63$TH </span> <span className="per">$6.95885785</span>
                         </label>
                     </div>
-                    <hr />
-                    <div>
-                        <label className="text3">
-                            Lorem ipsum dolor sit amet.
-                        </label>
-                    </div>
-                    <div>
-                        <label className="text4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                        </label>
-                    </div>
+
                 </div>
             </div>
         </>
