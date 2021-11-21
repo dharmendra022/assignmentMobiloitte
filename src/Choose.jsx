@@ -7,21 +7,32 @@ const Choose = () => {
             <div className="card1">
                 <div className="card2">
                     <h3>Enter price to show users purchase your NFT</h3>
-                    <div className="price">
-                        <span><LocalOfferIcon /></span>
-                        <h3>Fixed Price</h3>
 
-                    </div>
-                    <div className="timed">
-                        <span><TimelapseIcon /></span>
-                        <h3>Timed Aucation</h3>
+                    <div className="box">
+                        <div className="price">
+                            <div className="tim">
+                            <span><LocalOfferIcon /></span>
+                                <h3>Fixed Price</h3>
+                            </div>
 
+                        </div>
+
+                        <div className="timed">
+                            <div className="tim">
+                            <span><TimelapseIcon /></span>
+                                <h3>Timed Aucation</h3>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+
 
                 <div className="price1">
                     <h3>Price</h3>
                     <input type="text" />
+
+
 
 
                 </div>

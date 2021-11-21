@@ -12,31 +12,34 @@ import CameraAltIcon from '@mui/icons-material/CameraAlt';
 
 const Room = () => {
     return (
-        <><div className="room">
-            <h3>Room Category</h3>
-            <div>
+        <><div>
+            <h3 className="room1">Room Category</h3>
+            <div className="room">
 
-                <h5><PieChartOutlineIcon /> Art</h5>
-                <h5><MusicVideoIcon /> Music</h5>
-                <h5><SportsEsportsIcon /> Games</h5>
+                <div>
 
-            </div>
-            <div>
-                <h5><AddCircleOutlineIcon /> Notw</h5>
-                <h5><SentimentSatisfiedIcon /> Memes</h5>
-                <h5><EmojiPeopleIcon /> Punts</h5>
+                    <h5><PieChartOutlineIcon /> Art</h5>
+                    <h5><MusicVideoIcon /> Music</h5>
+                    <h5><SportsEsportsIcon /> Games</h5>
+
+                </div>
+                <div>
+                    <h5><AddCircleOutlineIcon /> Notw</h5>
+                    <h5><SentimentSatisfiedIcon /> Memes</h5>
+                    <h5><EmojiPeopleIcon /> Punts</h5>
 
 
-            </div>
-            <div>
-                <h5><AttachMoneyIcon /> DOPI</h5>
-                <h5><LanguageIcon /> Domains</h5>
-                <h5><StarPurple500Icon /> Star</h5>
+                </div>
+                <div>
+                    <h5><AttachMoneyIcon /> DOPI</h5>
+                    <h5><LanguageIcon /> Domains</h5>
+                    <h5><StarPurple500Icon /> Star</h5>
 
-            </div>
-            <div>
-                <h5><CameraAltIcon /> Photography</h5>
+                </div>
+                <div>
+                    <h5><CameraAltIcon /> Photography</h5>
 
+                </div>
             </div>
         </div>
         </>
